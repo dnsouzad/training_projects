@@ -3,7 +3,7 @@ const moment = require('moment')
 module.exports = app => {
     const getTasks = (req, res) => {
         const date = req.query.date ? req.query.date
-            :moment().endOf('day').toDate()
+            : moment().endOf('day').toDate()
 
             app.db('tasks')
                 .where({ userId: req.user.id })
@@ -32,7 +32,7 @@ module.exports = app => {
             .del()
             .then(rowsDeleted => {
                 if(rowsDeleted > 0) {
-                    res.status(204).send
+                    res.status(204).send()
                 } else {
                     const msg = `Não foi possível encontrar a task com o id ${req.params.id}.`
                     res.status(400).send(msg)
