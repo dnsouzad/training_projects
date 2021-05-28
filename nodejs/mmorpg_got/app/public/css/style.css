@@ -2,6 +2,14 @@
 	background: #010101;
 }
 
+#btn_suditos{
+	cursor: pointer;
+}
+
+#btn_pergaminho{
+	cursor: pointer;
+}
+
 .body-jogo{
 	background-image: url('../images/mapa.gif');
 	background-position: center;
