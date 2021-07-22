@@ -2,15 +2,15 @@
  Projetos com o intuito de treinar programação em diversas linguagens.
  ### (Linguagens de Programação/Frameworks):
  * _Ruby on Rails_
- * _NodeJs_
+ * _NodeJs_ - **Atual**
  * _React Native_ - **Atual**
- * _MongoDB_
+ * _MongoDB_ - **Atual**
  * _Firebase_
  * _Ionic_
  * _PHP_
  * _Java_
  * _Javascript_
- * _React Js_
+ * _React Js_ - **Atual**
  * _Postgre_
  * _API Rest Restful_
  * _Flutter_
