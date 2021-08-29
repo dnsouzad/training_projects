@@ -3,8 +3,9 @@
   src: url('./fonts/Roboto-Thin.ttf')
 }
 
-* {
-  font-family: 'Roboto', monospace;
+@font-face {
+  font-family: 'Rampart One';
+  src: url('./fonts/RampartOne-Regular.ttf');
 }
 
 body {
@@ -13,7 +14,13 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-
   color: #FFFFFF;
-  background: linear-gradient(to right, rgb(72, 85, 99), rgb(41, 50, 60));
+  font-family: 'Roboto', monospace;
+  background: linear-gradient(to right, rgb(161, 1, 100), rgb(149, 0, 137));
+}
+
+body .titleApp {
+  font-family: 'Rampart One', cursive;
+  font-size: 2.6rem;
+  color: #450030;
 }
