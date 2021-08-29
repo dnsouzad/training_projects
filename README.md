@@ -1,5 +1,5 @@
 # Projetos para treinamento
- Projetos com o intuito de treinar programação em diversas linguagens.
+ Projetos com o intuito de treinar programação em diversas linguagens, tanto baseados em cursos, video-aula, aulas da faculdade, quanto criados individualmente.
  ### (Linguagens de Programação/Frameworks):
  * _Ruby on Rails_
  * _NodeJs_ - **Atual**
