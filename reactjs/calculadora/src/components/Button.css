@@ -1,11 +1,11 @@
 :root {
-    --bg-button: #F0F0F0;
+    --bg-button: #630045;
     
 }
 
 .button {
     font-size: 1.4rem;
-    background-color: #630045;
+    background-color: #393939;
     border: none;
     border-radius: 25px;
     margin: 5px;
@@ -16,7 +16,7 @@
 }
 
 .button:active {
-    background-color: #CCCCCC;
+    background-color: #630045;
 }
 
 .button.double {
@@ -33,5 +33,5 @@
 }
 
 .button.operation:active {
-    background-color: #FA8231CC;
+    background-color: #86005e;
 }
